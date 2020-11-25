@@ -1,0 +1,91 @@
+@media only screen and (max-width:450px){
+    footer{
+        margin-top: 450px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .not-text{
+        display: none;
+    }
+
+    .acct-name{
+        position: absolute;
+        top: 0px;
+        right: 4px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 450px) {
+    .atm-num{
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .menu-reg{
+        display: none;
+    }
+    .menu-login{
+        color: var(--sec-color);
+        text-align: right;
+        /* margin-right: -15px; */
+    }
+    .how-btn{
+        width: 150px;
+        margin-left: -50px;
+    }
+    .home-header{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .picture{
+        width: 350px;
+        margin-top: 0px;
+        position: absolute;
+        z-index: 2;
+        top: 60px;
+        right: 0px;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .links{
+        text-align: center;
+    }
+
+    .howto-div{
+        overflow-y: scroll;
+    }
+    .form-div{
+        width: 300px;
+        margin-top: 0px;
+    }
+    .login-div{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: -50px;
+        padding-bottom: 70px;
+    }
+
+    .sidebar{
+        margin: -250px;
+    }
+    
+    .contentarea{
+        margin-left: 0px;
+    }
+
+    
+}
