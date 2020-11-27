@@ -352,9 +352,12 @@ footer{
     border: 1px solid #676767;
     text-align: center;
 }
-.cardBtn i{
-    margin-right: 20px;
+@media(max-width: 1460px){
+    .cardBtn{
+        width: 250px;
+    }
 }
+
 
 /* chart section */
 .chart{
