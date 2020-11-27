@@ -10,7 +10,8 @@ class Usernav extends React.Component{
             <div>
                 <div className="userNav">
                     <div className="navItems">
-                        <Icon icon='menu' fill='#fff' className="float-left menuBar" />
+                        <div className="container">
+                        <Icon icon='menu' fill='#fff' className="float-left " />
                         <Link to="/"><img src={logo} width="90px" className="logo"/></Link>
                         <div className="float-right user">
                             <div className="name float-left ">
@@ -19,6 +20,7 @@ class Usernav extends React.Component{
                             <div className="float-right mt-2 pl-2">
                             <p >Nazy baby<Icon icon='arrow' fill='#fff'/></p>
                             </div>
+                        </div>
                         </div>
                         
                     </div>

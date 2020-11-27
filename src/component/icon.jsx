@@ -5,7 +5,7 @@ export default class Icon extends React.Component{
     render(){
         if(this.props.icon === 'menu' ){
             return(
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 18 12">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" className="menuBar" height="12" viewBox="0 0 18 12">
                     <path id="menu" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" transform="translate(-3 -6)" fill="#29d311"/>
                 </svg>
 
