@@ -435,6 +435,7 @@ footer{
     border: .5px solid #f9fcff;
     box-shadow: 0 4px 20px rgba(0,0,0,.05);
     transition: box-shadow .318s ease-out;
+    cursor: pointer;
 }
 .sendCard2{
     width: 500px;
@@ -445,6 +446,7 @@ footer{
     border: .5px solid #f9fcff;
     box-shadow: 0 4px 20px rgba(0,0,0,.05);
     transition: box-shadow .318s ease-out;
+    cursor: pointer;
 }
 .cardContent{
     display: flex;
@@ -473,6 +475,30 @@ footer{
 }
 .transfer{
     width: 220px;
+}
+.sendCard1:hover .cardText p:last-child{
+    color: #0bd70a;
+    transition: all .2s ease-in-out;
+}
+.sendCard1:hover .dwall{
+    top: -20px;
+    transition: all .2s ease-in-out;
+}
+.sendCard1:hover .path{
+    filter: grayscale(100%);
+    transition: all .2s ease-in-out;
+}
+.sendCard2:hover .cardText p:last-child{
+    color: #0bd70a;
+    transition: all .2s ease-in-out;
+}
+.sendCard2:hover .bank{
+    top: -20px;
+    transition: all .2s ease-in-out;
+}
+.sendCard2:hover .path{
+    filter: grayscale(100%);
+    transition: all .2s ease-in-out;
 }
 /* send money page ends */
 

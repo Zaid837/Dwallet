@@ -27,7 +27,7 @@ class Transactions extends React.Component{
                                                     </div>
                                                     <div className="cardText">
                                                         <p>Send to D wallet</p>
-                                                        <p>Send to another d wallet user</p>
+                                                        <p>Send to another D wallet user</p>
                                                     </div>
                                                 </div>
                                             </div>
