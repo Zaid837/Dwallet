@@ -18,7 +18,7 @@ class Sidebar extends React.Component{
                             <li className=" sidelist active"><Link to="/fund-wallet"><i class ="fas fa-home mr-3"></i> Dashboard</Link></li>
                             <li className=" sidelist"><Link to="/send-money"><i class ="fas fa-sign-language mr-3"></i> Transactions</Link></li>
                             <li className=" sidelist"><Link to="/receive-payment"><i class="fab fa-expeditedssl mr-3"></i>Expemse Control</Link></li>
-                            <li className=" sidelist"><Link to="/transactions"><i class="fas fa-file-invoice-dollar mr-3"></i> Receive Money</Link></li>
+                            {/* <li className=" sidelist"><Link to="/transactions"><i class="fas fa-file-invoice-dollar mr-3"></i> Receive Money</Link></li> */}
                             <li className=" sidelist"><Link to="/transactions"><i class="fas fa-file-import mr-3"></i>Send Money</Link></li>
                             <li className=" sidelist"><Link to="/transactions"><i class="fas fa-funnel-dollar mr-3"></i>Fund Wallet</Link></li>
                             <li className=" sidelist"><Link to="/transactions"><i class="fas fa-user-circle mr-3"></i>Account</Link></li>

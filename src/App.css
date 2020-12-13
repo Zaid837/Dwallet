@@ -281,11 +281,11 @@ footer{
     background-color: #f9fcff;
 }
 .sidelist:hover{
-    background: var(--pri-color);
+    background: #f9fcff;
 }
 
 .sidelist:hover>a{
-    color: #fff;
+    color: #8D948D;
 }
 
 .sidelist > a{
@@ -408,5 +408,69 @@ footer{
 }
 /* transaction history ends */
 /* dashboard content ends */
+
+/* send money page */
+.sendMoney{
+    height: 100vh;
+}
+.sendTitle{
+    width: 100%;
+    padding: 0 60px;
+}
+.sendTitle h5, .sendTitle p{
+    color: #BCBCBC;
+}
+.sendCards{
+    width: 100%;
+}
+.sendCard1{
+    width: 500px;
+    height: 182px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 5%;
+    border: .5px solid #f9fcff;
+    box-shadow: 0 4px 20px rgba(0,0,0,.05);
+    transition: box-shadow .318s ease-out;
+}
+.sendCard2{
+    width: 500px;
+    height: 182px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 5%;
+    border: .5px solid #f9fcff;
+    box-shadow: 0 4px 20px rgba(0,0,0,.05);
+    transition: box-shadow .318s ease-out;
+}
+.cardContent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.cardIcon{
+    position: relative;
+}
+.cardIcon img{
+    display: inline;
+    position: absolute;
+}
+.path{
+    left: -35px;
+    top: 10px;
+}
+.dwall{
+    top: 10px;
+}
+.bank{
+    top: 10px;
+}
+.cardText{
+    margin-top: 10px;
+}
+.transfer{
+    width: 220px;
+}
+/* send money page ends */
 
 
