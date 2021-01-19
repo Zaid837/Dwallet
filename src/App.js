@@ -12,8 +12,9 @@ import Dashboard from './pages/dashboard';
 //import "./assets/JS/DW";
 import "./assets/css/mediaquery.css";
 import "./component/Navbar";
-
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import Fund from "./component/fund";
+import Profile from "./component/profile";
 
 
 class App extends React.Component{
@@ -29,6 +30,9 @@ class App extends React.Component{
             <Route path="/send-money"><UserDashboard children={<SendMoney/>}/></Route>
             <Route path="/receive-payment"><UserDashboard children={<ReceivePayment/>}/></Route>
             <Route path="/transactions"><UserDashboard children={<Transactions/>}/></Route>
+            <Route path="/fund"><UserDashboard children={<Fund/>}/></Route>
+            <Route path="/profile"><UserDashboard children={<Profile/>}/></Route>
+
             {/* <Route path="/dashboard" component={Dashboard} /> */}
           </Switch>
         </Router>

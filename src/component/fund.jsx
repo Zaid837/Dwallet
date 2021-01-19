@@ -1,9 +1,9 @@
 import React from "react";
-import dwall from "../assets/images/dwall.svg";
+import fund from "../assets/images/fund.png";
 import path from "../assets/images/Path.svg";
-import bank from "../assets/images/bank-transfer.svg";
+import money from "../assets/images/money.svg";
 
-class Transactions extends React.Component{
+class Fund extends React.Component{
     render(){
         return(
             <div>
@@ -11,11 +11,10 @@ class Transactions extends React.Component{
                     <div className="container">
                         <div className="row">
                             <div className="sendTitle mt-5">
-                                <h5>Send money to a friend</h5>
-                                <p>Choose your preferred sending option</p>
+                                <h5>Fund Money</h5>
+                                <p>Choose your preferred funding option</p>
                                 <div className="line"></div>
                             </div>
-                            {/* send cards */}
                             <div className="sendCards mt-4">
                                 <div className="container">
                                     <div className="row">
@@ -23,12 +22,12 @@ class Transactions extends React.Component{
                                             <div className="sendCard1">
                                                 <div className="cardContent">
                                                     <div className="cardIcon">
-                                                        <img src={dwall} alt="" className="dwall"/>
+                                                        <img src={fund} alt="" className="fund"/>
                                                         <img src={path} alt="" className="path"/>
                                                     </div>
                                                     <div className="cardText">
-                                                        <p>Send to D wallet</p>
-                                                        <p>Send to another D wallet user</p>
+                                                        <p>Debit Card Top Up</p>
+                                                        <p>Top up your wallet using your debit card</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -37,12 +36,12 @@ class Transactions extends React.Component{
                                             <div className="sendCard2 ml-5">
                                             <div className="cardContent">
                                                 <div className="cardIcon">
-                                                    <img src={bank} alt="" className="bank"/>
+                                                    <img src={money} alt="" className="money"/>
                                                     <img src={path} alt="" className="path"/>
                                                 </div>
                                                     <div className="cardText">
-                                                        <p>Send to bank</p>
-                                                        <p className="transfer">Transfer money to a beneficiary's bank account</p>
+                                                        <p>Fund from bank</p>
+                                                        <p className="transfer">Top up your wallet via your bank app</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -50,16 +49,6 @@ class Transactions extends React.Component{
                                     </div>
                                 </div>
                             </div>
-                            {/* send cards ends */}
-
-
-                            {/* modal section */}
-                            {/* <div className="modalBg">
-                                <div className="modalCon">
-                                    <h1>hello</h1>
-                                </div>
-                            </div> */}
-                            {/* modal section ends */}
                         </div>
                     </div>
                 </div>
@@ -68,4 +57,4 @@ class Transactions extends React.Component{
     };
 }
 
-export default Transactions;
+export default Fund;
