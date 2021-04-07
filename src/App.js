@@ -1,5 +1,4 @@
 import React from "react";
-import $ from "jquery";
 import "./App.css";
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -9,7 +8,6 @@ import SendMoney from "./component/send-money";
 import ReceivePayment from "./component/receive-payment";
 import Transactions from "./component/transactions";
 import Dashboard from './pages/dashboard'; 
-//import "./assets/JS/DW";
 import "./assets/css/mediaquery.css";
 import "./component/Navbar";
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";

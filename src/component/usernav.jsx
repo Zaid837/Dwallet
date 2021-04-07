@@ -8,7 +8,7 @@ class Usernav extends React.Component{
     render(){
         return(
             <div>
-                <div className="userNav">
+                <div className="usernav">
                     <div className="navItems">
                         <div className="container">
                         <Icon icon='menu' fill='#fff' className="float-left " />
